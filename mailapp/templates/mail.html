@@ -1,0 +1,27 @@
+<html lang="en">
+    <head>
+        <!-- CSS only --><!-- JavaScript Bundle with Popper -->
+     
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Send Email</title>
+    </head>
+    <body>
+        <br><br>
+         <div class="container">
+ <div class="jumbotron">
+
+        <form method="POST" action="">
+            {% csrf_token %}
+        
+            Subject:<input type="text" name="subject"></BR></BR>
+            Message:<input type="text" name="body"></BR></BR>
+            <input type="submit" value="Send Email">
+        </form>
+        </div>
+        </div>
+    </body>
+    </html>
+
+
