@@ -127,6 +127,6 @@ STATIC_DIR=os.path.join(BASE_DIR,'static')
 
 EMAIL_HOST="smtp.gmail.com"
 EMAIL_PORT=587
-EMAIL_HOST_USER="kajale.minal96@gmail.com"
-EMAIL_HOST_PASSWORD="Minal@31396"
+EMAIL_HOST_USER="user@gmail.com"
+EMAIL_HOST_PASSWORD="user"
 EMAIL_USE_TLS=True
